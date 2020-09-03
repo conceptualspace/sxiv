@@ -3,3 +3,6 @@ version.h
 *.d
 *.o
 sxiv
+
+.idea*
+.DS_Store

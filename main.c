@@ -316,6 +316,8 @@ void load_image(int new)
 	open_info();
 	arl_setup(&arl, files[fileidx].path);
 
+	ci_fit_to_win();
+
 	if (img.multi.cnt > 0 && img.multi.animate)
 		set_timeout(animate, img.multi.frames[img.multi.sel].delay, true);
 	else

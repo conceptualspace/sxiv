@@ -2,8 +2,8 @@
 
 /* default window dimensions (overwritten via -g option): */
 enum {
-	WIN_WIDTH  = 800,
-	WIN_HEIGHT = 600
+	WIN_WIDTH  = 960,
+	WIN_HEIGHT = 720
 };
 
 /* colors and font are configured with 'background', 'foreground' and
@@ -19,8 +19,10 @@ enum {
  */
 static const float zoom_levels[] = {
 	 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0,
-	100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 175.0, 200.0,
-	250.0, 300.0, 400.0, 800.0, 1000.0
+	100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 160.0, 170.0,
+	180.0, 190.0, 200.0, 210.0, 220.0, 230.0, 240.0, 250.0,
+	260.0, 270.0, 280.0, 290.0, 300.0, 400.0, 600.0, 800.0,
+	1000.0
 };
 
 /* default slideshow delay (in sec, overwritten via -S option): */

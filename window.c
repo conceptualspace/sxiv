@@ -119,7 +119,7 @@ void win_init(win_t *win)
 	f = win_res(db, RES_CLASS ".font", "monospace-8");
 	win_init_font(e, f);
 
-	bg = win_res(db, RES_CLASS ".background", "white");
+	bg = win_res(db, RES_CLASS ".background", "#C9CCC6");
 	fg = win_res(db, RES_CLASS ".foreground", "black");
 	win_alloc_color(e, bg, &win->bg);
 	win_alloc_color(e, fg, &win->fg);
